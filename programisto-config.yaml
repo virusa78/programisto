@@ -1,0 +1,104 @@
+# Programisto Configuration
+# This file configures the Programisto coding assistant
+
+# Project directory (optional, defaults to current directory)
+project_dir: null
+
+# LLM Configuration
+llm:
+  enabled: true
+  api_key: null  # Set OPENAI_API_KEY environment variable
+  base_url: "https://api.openai.com/v1"
+  model: "claude-3-sonnet-20240229"
+  timeout: 120
+
+# CLI Tool Configurations
+tools:
+  claude-code:
+    enabled: true
+    skills_dir: "~/.claude/skills"
+    activation: "file-based"
+    version: "latest"
+
+  codex:
+    enabled: true
+    skills_dir: "~/.codex/skills"
+    activation: "yaml-frontmatter"
+    version: "latest"
+
+  cursor:
+    enabled: true
+    skills_dir: ".cursor/skills"
+    activation: "project-local"
+    version: "latest"
+
+  gemini:
+    enabled: true
+    skills_dir: ".gemini/skills"
+    activation: "activate_skill()"
+    version: "latest"
+
+  openclaw:
+    enabled: true
+    skills_dir: "~/.openclaw/skills"
+    activation: "yaml-frontmatter-triggers"
+    version: "latest"
+
+  vscode:
+    enabled: true
+    skills_dir: "~/.vscode/skills"
+    activation: "extension"
+    version: "latest"
+
+  copilot:
+    enabled: true
+    skills_dir: "~/.copilot/skills"
+    activation: "extension"
+    version: "latest"
+
+  goose:
+    enabled: true
+    skills_dir: "~/.goose/skills"
+    activation: "file-based"
+    version: "latest"
+
+  opencode:
+    enabled: true
+    skills_dir: "~/.opencode/skills"
+    activation: "file-based"
+    version: "latest"
+
+  aider:
+    enabled: true
+    skills_dir: "~/.aider/skills"
+    activation: "file-based"
+    version: "latest"
+
+  windsurf:
+    enabled: true
+    skills_dir: "~/.windsurf/skills"
+    activation: "extension"
+    version: "latest"
+
+  kilo:
+    enabled: true
+    skills_dir: "~/.kilo/skills"
+    activation: "file-based"
+    version: "latest"
+
+  augment:
+    enabled: true
+    skills_dir: "~/.augment/skills"
+    activation: "file-based"
+    version: "latest"
+
+  antigravity:
+    enabled: true
+    skills_dir: "~/.antigravity/skills"
+    activation: "file-based"
+    version: "latest"
+
+# Global settings
+dry_run: false
+verbose: false
+skill_index_path: "skills_catalog/skills_index.json"

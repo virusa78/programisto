@@ -1,0 +1,4 @@
+- [User Role](user_memory.md) — Programisto is a Python-based coding assistant for web developers
+- [Project Structure](project_structure.md) — Complete project layout with scanner, LLM, assistant, foils, harness, analyzer, skills, tools, and admin modules
+- [Test Suite](test_suite.md) — Full pytest test suite with unit and integration tests
+- [CI/CD Pipeline](ci_cd_pipeline.md) — GitHub Actions workflow for testing, linting, building, and deployment

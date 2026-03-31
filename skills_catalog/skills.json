@@ -1,0 +1,126 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-03-31",
+  "skills": [
+    {
+      "id": "web-components",
+      "name": "Web Components",
+      "description": "Reusable custom HTML elements with Shadow DOM",
+      "category": "frontend",
+      "tags": ["components", "web-components", "javascript", "typescript"],
+      "supported_agents": ["claude-code", "codex", "cursor", "gemini", "aider"],
+      "files": ["components/base-component.ts", "components/lifecycle-hooks.ts"],
+      "priority": "high"
+    },
+    {
+      "id": "react-hooks",
+      "name": "React Custom Hooks",
+      "description": "Reusable stateful logic extracted into custom hooks",
+      "category": "frontend",
+      "tags": ["react", "hooks", "typescript", "state-management"],
+      "supported_agents": ["claude-code", "codex", "cursor", "gemini", "aider"],
+      "files": ["hooks/useAsync.ts", "hooks/useLocalStorage.ts", "hooks/useDebounce.ts"],
+      "priority": "high"
+    },
+    {
+      "id": "state-management",
+      "name": "State Management Patterns",
+      "description": "Centralized state management using Context API or Redux-like patterns",
+      "category": "frontend",
+      "tags": ["state", "context", "redux", "typescript"],
+      "supported_agents": ["claude-code", "codex", "cursor", "gemini", "aider"],
+      "files": ["store/context-provider.ts", "store/reducer.ts", "store/actions.ts"],
+      "priority": "high"
+    },
+    {
+      "id": "api-client",
+      "name": "API Client",
+      "description": "Type-safe API client with request/response interceptors",
+      "category": "frontend",
+      "tags": ["api", "fetch", "axios", "typescript"],
+      "supported_agents": ["claude-code", "codex", "cursor", "gemini", "aider"],
+      "files": ["api/client.ts", "api/interceptors.ts", "api/types.ts"],
+      "priority": "medium"
+    },
+    {
+      "id": "validation",
+      "name": "Form Validation",
+      "description": "Type-safe form validation with schema definitions",
+      "category": "frontend",
+      "tags": ["validation", "forms", "zod", "typescript"],
+      "supported_agents": ["claude-code", "codex", "cursor", "gemini", "aider"],
+      "files": ["validation/schema.ts", "validation/hooks.ts", "validation/utils.ts"],
+      "priority": "medium"
+    },
+    {
+      "id": "routing",
+      "name": "Routing Patterns",
+      "description": "Client-side routing with code splitting and lazy loading",
+      "category": "frontend",
+      "tags": ["routing", "navigation", "react-router", "typescript"],
+      "supported_agents": ["claude-code", "codex", "cursor", "gemini", "aider"],
+      "files": ["routes/index.tsx", "routes/lazy-load.tsx", "routes/guards.tsx"],
+      "priority": "high"
+    },
+    {
+      "id": "styling",
+      "name": "Styling System",
+      "description": "Consistent styling with CSS-in-JS or Tailwind patterns",
+      "category": "frontend",
+      "tags": ["styling", "css", "tailwind", "components"],
+      "supported_agents": ["claude-code", "codex", "cursor", "gemini", "aider"],
+      "files": ["styles/theme.ts", "styles/components.tsx", "styles/utils.ts"],
+      "priority": "medium"
+    },
+    {
+      "id": "authentication",
+      "name": "Authentication Flow",
+      "description": "Complete authentication with tokens, refresh, and protected routes",
+      "category": "auth",
+      "tags": ["auth", "security", "tokens", "typescript"],
+      "supported_agents": ["claude-code", "codex", "cursor", "gemini", "aider"],
+      "files": ["auth/providers.ts", "auth/hooks.ts", "auth/contexts.tsx"],
+      "priority": "high"
+    },
+    {
+      "id": "error-handling",
+      "name": "Error Boundaries",
+      "description": "Graceful error handling with fallback UIs",
+      "category": "frontend",
+      "tags": ["errors", "boundaries", "fallback", "react"],
+      "supported_agents": ["claude-code", "codex", "cursor", "gemini", "aider"],
+      "files": ["errors/boundary.tsx", "errors/fallback.tsx", "errors/logger.ts"],
+      "priority": "medium"
+    },
+    {
+      "id": "testing",
+      "name": "Testing Setup",
+      "description": "Jest/RTL testing utilities and mocks",
+      "category": "testing",
+      "tags": ["testing", "jest", "react-testing-library", "mocks"],
+      "supported_agents": ["claude-code", "codex", "cursor", "gemini", "aider"],
+      "files": ["tests/setup.ts", "tests/mocks.ts", "tests/utils.tsx"],
+      "priority": "medium"
+    },
+    {
+      "id": "typescript-config",
+      "name": "TypeScript Configuration",
+      "description": "Strict TypeScript configuration for type safety",
+      "category": "configuration",
+      "tags": ["typescript", "config", "strict", "types"],
+      "supported_agents": ["claude-code", "codex", "cursor", "gemini", "aider"],
+      "files": ["tsconfig.json", "tsconfig.paths.json"],
+      "priority": "high"
+    },
+    {
+      "id": "environment",
+      "name": "Environment Configuration",
+      "description": "Environment variables management with validation",
+      "category": "configuration",
+      "tags": ["env", "configuration", "validation", "dotenv"],
+      "supported_agents": ["claude-code", "codex", "cursor", "gemini", "aider"],
+      "files": ["env/schema.ts", "env/index.ts", ".env.example"],
+      "priority": "high"
+    }
+  ]
+}

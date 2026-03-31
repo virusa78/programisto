@@ -1,0 +1,20 @@
+[MAIN]
+jobs=0
+persistent=yes
+suggestion-mode=yes
+
+[FORMAT]
+max-line-length=100
+
+[MESSAGES CONTROL]
+disable=
+    C0114,  # missing-module-docstring
+    C0115,  # missing-class-docstring
+    C0116,  # missing-function-docstring
+    R0903,  # too-few-public-methods
+
+[REPORTS]
+score=no
+
+[TYPECHECK]
+ignored-modules=

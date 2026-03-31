@@ -1,0 +1,81 @@
+project_dir: /home/virus/programisto/new-project
+llm:
+  enabled: true
+  api_key: null
+  base_url: https://api.openai.com/v1
+  model: claude-3-sonnet-20240229
+  timeout: 120
+tools:
+  claude_code:
+    enabled: true
+    skills_dir: ~/.programisto/skills
+    activation: file-based
+    version: latest
+  codex:
+    enabled: true
+    skills_dir: ~/.programisto/skills
+    activation: file-based
+    version: latest
+  cursor:
+    enabled: true
+    skills_dir: ~/.programisto/skills
+    activation: file-based
+    version: latest
+  gemini:
+    enabled: true
+    skills_dir: ~/.programisto/skills
+    activation: file-based
+    version: latest
+  openclaw:
+    enabled: true
+    skills_dir: ~/.programisto/skills
+    activation: file-based
+    version: latest
+  vscode:
+    enabled: true
+    skills_dir: ~/.programisto/skills
+    activation: file-based
+    version: latest
+  copilot:
+    enabled: true
+    skills_dir: ~/.programisto/skills
+    activation: file-based
+    version: latest
+  goose:
+    enabled: true
+    skills_dir: ~/.programisto/skills
+    activation: file-based
+    version: latest
+  opencode:
+    enabled: true
+    skills_dir: ~/.programisto/skills
+    activation: file-based
+    version: latest
+  aider:
+    enabled: true
+    skills_dir: ~/.programisto/skills
+    activation: file-based
+    version: latest
+  windsurf:
+    enabled: true
+    skills_dir: ~/.programisto/skills
+    activation: file-based
+    version: latest
+  kilo:
+    enabled: true
+    skills_dir: ~/.programisto/skills
+    activation: file-based
+    version: latest
+  augment:
+    enabled: true
+    skills_dir: ~/.programisto/skills
+    activation: file-based
+    version: latest
+  antigravity:
+    enabled: true
+    skills_dir: ~/.programisto/skills
+    activation: file-based
+    version: latest
+dry_run: false
+verbose: false
+skill_index_path: skills_catalog/skills_index.json

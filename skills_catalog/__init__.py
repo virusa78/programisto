@@ -1,0 +1,1 @@
+"""Skills catalog package."""

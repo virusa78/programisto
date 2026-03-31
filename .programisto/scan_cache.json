@@ -1,0 +1,838 @@
+{
+  "root_path": "/home/virus/programisto",
+  "directories": {
+    "context": {
+      "path": "/home/virus/programisto/context",
+      "file_count": 2,
+      "total_size": 11874,
+      "subdirectories": []
+    },
+    "scanner": {
+      "path": "/home/virus/programisto/scanner",
+      "file_count": 2,
+      "total_size": 22526,
+      "subdirectories": []
+    },
+    ".github/workflows": {
+      "path": "/home/virus/programisto/.github/workflows",
+      "file_count": 1,
+      "total_size": 6606,
+      "subdirectories": []
+    },
+    ".github": {
+      "path": "/home/virus/programisto/.github",
+      "file_count": 0,
+      "total_size": 0,
+      "subdirectories": [
+        ".github/workflows"
+      ]
+    },
+    "llm": {
+      "path": "/home/virus/programisto/llm",
+      "file_count": 2,
+      "total_size": 9673,
+      "subdirectories": []
+    },
+    "new-project/skills_catalog": {
+      "path": "/home/virus/programisto/new-project/skills_catalog",
+      "file_count": 1,
+      "total_size": 88,
+      "subdirectories": []
+    },
+    "new-project": {
+      "path": "/home/virus/programisto/new-project",
+      "file_count": 2,
+      "total_size": 2646,
+      "subdirectories": [
+        "new-project/skills_catalog"
+      ]
+    },
+    ".claude/skills": {
+      "path": "/home/virus/programisto/.claude/skills",
+      "file_count": 1,
+      "total_size": 6200,
+      "subdirectories": []
+    },
+    ".claude": {
+      "path": "/home/virus/programisto/.claude",
+      "file_count": 1,
+      "total_size": 7690,
+      "subdirectories": [
+        ".claude/skills"
+      ]
+    },
+    "foils": {
+      "path": "/home/virus/programisto/foils",
+      "file_count": 2,
+      "total_size": 20026,
+      "subdirectories": []
+    },
+    "admin": {
+      "path": "/home/virus/programisto/admin",
+      "file_count": 2,
+      "total_size": 16255,
+      "subdirectories": []
+    },
+    "utils": {
+      "path": "/home/virus/programisto/utils",
+      "file_count": 2,
+      "total_size": 14069,
+      "subdirectories": []
+    },
+    "assistant": {
+      "path": "/home/virus/programisto/assistant",
+      "file_count": 2,
+      "total_size": 12257,
+      "subdirectories": []
+    },
+    "skills_catalog": {
+      "path": "/home/virus/programisto/skills_catalog",
+      "file_count": 3,
+      "total_size": 9413,
+      "subdirectories": []
+    },
+    "analyzer": {
+      "path": "/home/virus/programisto/analyzer",
+      "file_count": 2,
+      "total_size": 16876,
+      "subdirectories": []
+    },
+    ".programisto/repos": {
+      "path": "/home/virus/programisto/.programisto/repos",
+      "file_count": 0,
+      "total_size": 0,
+      "subdirectories": []
+    },
+    ".programisto": {
+      "path": "/home/virus/programisto/.programisto",
+      "file_count": 1,
+      "total_size": 4170,
+      "subdirectories": [
+        ".programisto/repos"
+      ]
+    },
+    "skills": {
+      "path": "/home/virus/programisto/skills",
+      "file_count": 3,
+      "total_size": 40491,
+      "subdirectories": []
+    },
+    "tools": {
+      "path": "/home/virus/programisto/tools",
+      "file_count": 2,
+      "total_size": 15225,
+      "subdirectories": []
+    },
+    ".pytest_cache/v/cache": {
+      "path": "/home/virus/programisto/.pytest_cache/v/cache",
+      "file_count": 2,
+      "total_size": 12752,
+      "subdirectories": []
+    },
+    ".pytest_cache/v": {
+      "path": "/home/virus/programisto/.pytest_cache/v",
+      "file_count": 0,
+      "total_size": 0,
+      "subdirectories": [
+        ".pytest_cache/v/cache"
+      ]
+    },
+    ".pytest_cache": {
+      "path": "/home/virus/programisto/.pytest_cache",
+      "file_count": 3,
+      "total_size": 530,
+      "subdirectories": [
+        ".pytest_cache/v"
+      ]
+    },
+    "harness": {
+      "path": "/home/virus/programisto/harness",
+      "file_count": 2,
+      "total_size": 18299,
+      "subdirectories": []
+    },
+    "tests/unit": {
+      "path": "/home/virus/programisto/tests/unit",
+      "file_count": 7,
+      "total_size": 37065,
+      "subdirectories": []
+    },
+    "tests/integration": {
+      "path": "/home/virus/programisto/tests/integration",
+      "file_count": 3,
+      "total_size": 22232,
+      "subdirectories": []
+    },
+    "tests/fixtures": {
+      "path": "/home/virus/programisto/tests/fixtures",
+      "file_count": 4,
+      "total_size": 14292,
+      "subdirectories": []
+    },
+    "tests": {
+      "path": "/home/virus/programisto/tests",
+      "file_count": 2,
+      "total_size": 1717,
+      "subdirectories": [
+        "tests/unit",
+        "tests/integration",
+        "tests/fixtures"
+      ]
+    },
+    "": {
+      "path": "/home/virus/programisto",
+      "file_count": 14,
+      "total_size": 37085,
+      "subdirectories": [
+        "context",
+        "scanner",
+        ".github",
+        "llm",
+        "new-project",
+        ".claude",
+        "foils",
+        "admin",
+        "utils",
+        "assistant",
+        "skills_catalog",
+        "analyzer",
+        ".programisto",
+        "skills",
+        "tools",
+        ".pytest_cache",
+        "harness",
+        "tests"
+      ]
+    }
+  },
+  "source_files": [
+    {
+      "path": "config.py",
+      "size": 5111,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "173a9c9d5afc37e7ae457059407106ab"
+    },
+    {
+      "path": "context/__init__.py",
+      "size": 35,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "97e594ef26a263dbbe2e80f58f60151a"
+    },
+    {
+      "path": "context/prompts.py",
+      "size": 11839,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "a6273b2fe0da5bf1e8443ea6287fe394"
+    },
+    {
+      "path": "scanner/__init__.py",
+      "size": 31,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "432c95cec4393a0a55bc73c6ce5cbdbf"
+    },
+    {
+      "path": "scanner/project_scanner.py",
+      "size": 22495,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "8314a39035cee5dbfcc97f263791ec7d"
+    },
+    {
+      "path": "llm/__init__.py",
+      "size": 26,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "7b9220b3342dc060d930686d5234ecd4"
+    },
+    {
+      "path": "llm/client.py",
+      "size": 9647,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "fc0811e6a1f88ebaf7e64767e4bbf04e"
+    },
+    {
+      "path": "__init__.py",
+      "size": 66,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "770bdae9d17fe25d3ee94a7973c20299"
+    },
+    {
+      "path": "foils/__init__.py",
+      "size": 30,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "1a28912dfc73cc4164a4d7d92141a408"
+    },
+    {
+      "path": "foils/generator.py",
+      "size": 19996,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "33853058900ffdd59ab01b9fd0f07f21"
+    },
+    {
+      "path": "admin/__init__.py",
+      "size": 30,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "c818748e2905785abf495b177cd63e72"
+    },
+    {
+      "path": "admin/commands.py",
+      "size": 16225,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "89dbf9ad6b3e8b1a0e6a1db3d4f44185"
+    },
+    {
+      "path": "utils/testing.py",
+      "size": 14044,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "4db88e849d50194fb3e53c06fa386424"
+    },
+    {
+      "path": "utils/__init__.py",
+      "size": 25,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "4279bdfa7c55b14244387c342ea706e9"
+    },
+    {
+      "path": "assistant/__init__.py",
+      "size": 30,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "f8c358a116cbbf491e900879f528c20d"
+    },
+    {
+      "path": "assistant/main.py",
+      "size": 12227,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "278db8be6cc5b0f2b8b58a9afeba5eb4"
+    },
+    {
+      "path": "skills_catalog/__init__.py",
+      "size": 30,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "26262a709beb3a3c9c9a71e1563094c4"
+    },
+    {
+      "path": "analyzer/log_analyzer.py",
+      "size": 16848,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "58f1a5e4c0762c7169b291db7a76d3e1"
+    },
+    {
+      "path": "analyzer/__init__.py",
+      "size": 28,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "6ae5a2936741bc93f1f4553399ec03bb"
+    },
+    {
+      "path": "skills/selector.py",
+      "size": 22118,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "01a791c0e905b6dc7fa07a9948668d65"
+    },
+    {
+      "path": "skills/catalog.py",
+      "size": 18351,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "76a41e05d4d83302283bc3352c927ddf"
+    },
+    {
+      "path": "skills/__init__.py",
+      "size": 22,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "58f766b1c6acf65c54b2ce19bfebd815"
+    },
+    {
+      "path": "programisto.py",
+      "size": 16523,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "5ea26bff7c8ba1c1865eaf6855aee379"
+    },
+    {
+      "path": "tools/cli_support.py",
+      "size": 15193,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "1314978c9d784ac5f3f1022c06969dda"
+    },
+    {
+      "path": "tools/__init__.py",
+      "size": 32,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "d962965d5c7de6b2ca07a18c3241b2bb"
+    },
+    {
+      "path": "harness/__init__.py",
+      "size": 45,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "17091a5c22c8e64e9f9cfdb9f0ee5107"
+    },
+    {
+      "path": "harness/generator.py",
+      "size": 18254,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "53107423f4f5044b0cd0b28da55aa396"
+    },
+    {
+      "path": "tests/__init__.py",
+      "size": 34,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "eaec6d665c123fddd3fa6f41dc4e4411"
+    },
+    {
+      "path": "tests/unit/test_llm_gateway.py",
+      "size": 3999,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "005167e429b7f68174035cfcf23ed208"
+    },
+    {
+      "path": "tests/unit/test_log_analyzer.py",
+      "size": 7552,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "389cfce2f794de6a72a15bc1f49fe958"
+    },
+    {
+      "path": "tests/unit/test_applier.py",
+      "size": 5064,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "efc2aa189eedb99e2d61bb58b5e61fe7"
+    },
+    {
+      "path": "tests/unit/test_config_generator.py",
+      "size": 5350,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "2504f7737e8be5d6b961680c9c45eb83"
+    },
+    {
+      "path": "tests/unit/test_recommender.py",
+      "size": 4187,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "06465a2ac82fcd23051f5de1b0962078"
+    },
+    {
+      "path": "tests/unit/test_scanner.py",
+      "size": 3565,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "aab4798c04d328c39e7dc7f144d88f51"
+    },
+    {
+      "path": "tests/unit/test_indexer.py",
+      "size": 7348,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "c9066f1c8791e1a437ce0b3407e43875"
+    },
+    {
+      "path": "tests/integration/test_end_to_end.py",
+      "size": 8130,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "2253dc35f52e67ba79d667f0a3c914e0"
+    },
+    {
+      "path": "tests/integration/test_multi_agent.py",
+      "size": 6810,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "e445367f2b241c6cbbba324364938a34"
+    },
+    {
+      "path": "tests/integration/test_skill_catalog.py",
+      "size": 7292,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "4900039456444725ad22b22b492be6b1"
+    },
+    {
+      "path": "tests/conftest.py",
+      "size": 1683,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "a48bf78b666fd9e9252cf2c69c073506"
+    },
+    {
+      "path": "tests/fixtures/sample_skills.py",
+      "size": 3774,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "05a63b8ef3a6d08915a6db13d9e92a3b"
+    },
+    {
+      "path": "tests/fixtures/sample_project.py",
+      "size": 5149,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "2e9e5604377af78d4aa02a4cc7326aa0"
+    },
+    {
+      "path": "tests/fixtures/conftest.py",
+      "size": 1658,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "8ad37c1a108cb9ebdc5eb5db6e17d9aa"
+    },
+    {
+      "path": "tests/fixtures/mock_llm.py",
+      "size": 3711,
+      "extension": ".py",
+      "language": "python",
+      "is_config": false,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "7dddad7277bedff945121b52f2dd22e2"
+    }
+  ],
+  "config_files": [
+    {
+      "path": "programisto-config.yaml",
+      "size": 2146,
+      "extension": ".yaml",
+      "language": "unknown",
+      "is_config": true,
+      "is_source": false,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "82774e7a98721d866ae2f4460bf8992c"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 6606,
+      "extension": ".yml",
+      "language": "unknown",
+      "is_config": true,
+      "is_source": false,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "2e35ec63fd43129d4a1041268108dd2c"
+    },
+    {
+      "path": "new-project/programisto-config.yaml",
+      "size": 1856,
+      "extension": ".yaml",
+      "language": "unknown",
+      "is_config": true,
+      "is_source": false,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "53b5173158afb91e602fa7a3308baf07"
+    },
+    {
+      "path": "new-project/skills_catalog/skills.json",
+      "size": 88,
+      "extension": ".json",
+      "language": "unknown",
+      "is_config": true,
+      "is_source": false,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "6518dc0baa55207747e0e30b26802b9a"
+    },
+    {
+      "path": ".claude/settings.local.json",
+      "size": 7690,
+      "extension": ".json",
+      "language": "unknown",
+      "is_config": true,
+      "is_source": false,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "005e5ccbe27460562f8420cbb2ed81d0"
+    },
+    {
+      "path": "skills_catalog/skills.json",
+      "size": 5246,
+      "extension": ".json",
+      "language": "unknown",
+      "is_config": true,
+      "is_source": false,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "e11eb237dc36150433a52b2a173f7950"
+    },
+    {
+      "path": "skills_catalog/skills_index.json",
+      "size": 4137,
+      "extension": ".json",
+      "language": "unknown",
+      "is_config": true,
+      "is_source": false,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "4b2c499471ac21976a78868d19079bdd"
+    },
+    {
+      "path": ".isort.cfg",
+      "size": 80,
+      "extension": ".cfg",
+      "language": "unknown",
+      "is_config": true,
+      "is_source": false,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "a7fc591ac48c6de71146d0638e22209e"
+    },
+    {
+      "path": ".programisto/scan_cache.json",
+      "size": 4170,
+      "extension": ".json",
+      "language": "unknown",
+      "is_config": true,
+      "is_source": false,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "a6645a3b1d6510c6b81099ed48c296ed"
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1617,
+      "extension": ".toml",
+      "language": "unknown",
+      "is_config": true,
+      "is_source": false,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "a465e67630286f31a9a3f081f0ee508f"
+    },
+    {
+      "path": ".pytest_cache/.gitignore",
+      "size": 37,
+      "extension": "",
+      "language": "unknown",
+      "is_config": true,
+      "is_source": false,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "ae07caff09568018697eb6087d745223"
+    },
+    {
+      "path": "requirements.txt",
+      "size": 39,
+      "extension": ".txt",
+      "language": "unknown",
+      "is_config": true,
+      "is_source": false,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "0890c8b4f348c9e1114584510367d02a"
+    },
+    {
+      "path": "setup.py",
+      "size": 1739,
+      "extension": ".py",
+      "language": "python",
+      "is_config": true,
+      "is_source": true,
+      "is_test": false,
+      "is_log": false,
+      "content_hash": "7f34416f2c449ca662b045516fd90083"
+    }
+  ],
+  "test_files": [],
+  "log_files": [],
+  "technology_stack": {
+    "python": true,
+    "git": true
+  },
+  "file_count": 68,
+  "total_size": 360057,
+  "last_scanned": "2026-03-31T14:58:41.036191",
+  "project_path": "/home/virus/programisto"
+}

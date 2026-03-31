@@ -1,0 +1,20 @@
+{
+  "tests/integration/test_end_to_end.py::TestMultiStepOperations::test_create_and_validate_project": true,
+  "tests/integration/test_end_to_end.py::TestMultiStepOperations::test_dry_run_execution": true,
+  "tests/integration/test_multi_agent.py::TestMultiAgentConfiguration::test_configure_claude_code": true,
+  "tests/integration/test_skill_catalog.py::TestSkillCatalogIntegration::test_catalog_index_persistence": true,
+  "tests/integration/test_skill_catalog.py::TestSkillCatalogIntegration::test_skill_search": true,
+  "tests/integration/test_skill_catalog.py::TestSkillCatalogIntegration::test_invalid_catalog_handling": true,
+  "tests/integration/test_skill_catalog.py::TestSkillCatalogIntegration::test_tag_indexing": true,
+  "tests/integration/test_skill_catalog.py::TestSkillCatalogIntegration::test_category_indexing": true,
+  "tests/unit/test_applier.py::TestSkillApplier::test_select_skills_and_generate_params": true,
+  "tests/unit/test_applier.py::TestSkillApplier::test_generate_full_skill_set": true,
+  "tests/unit/test_config_generator.py::TestProgramistoConfig::test_get_enabled_tools": true,
+  "tests/unit/test_indexer.py::TestSkillCatalog::test_search_skills": true,
+  "tests/unit/test_log_analyzer.py::TestLogAnalysis::test_analysis_counts": true,
+  "tests/unit/test_log_analyzer.py::TestLogAnalyzer::test_analyze_sample_log_file": true,
+  "tests/unit/test_log_analyzer.py::TestLogAnalyzer::test_analyze_project_logs": true,
+  "tests/unit/test_log_analyzer.py::TestLogAnalyzer::test_get_summary": true,
+  "tests/unit/test_log_analyzer.py::TestLogAnalyzer::test_generate_report": true,
+  "tests/unit/test_recommender.py::TestSkillSelector::test_generate_parameters": true
+}

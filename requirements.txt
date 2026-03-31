@@ -1,0 +1,2 @@
+# Programisto Dependencies
+pyyaml>=6.0
